@@ -15,4 +15,4 @@ We use CIFAR10 classification as an example with a simple architecture. In order
 
 Baseline model             |  AMC model
 :-------------------------:|:-------------------------:
-<img src="result/cifar10/Baseline/result_baseline.png" width="500">  |  <img src="result/cifar10/Baseline/result_baseline.png" width="500">
+<img src="result/cifar10/Baseline/result_baseline.png" width="400">  |  <img src="result/cifar10/AMC/result_amc.png" width="400">
