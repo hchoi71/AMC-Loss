@@ -360,7 +360,7 @@ if __name__ == "__main__":
         load_visualization.scatter(data=z_dev_2D, label=y_test[:10000], dir=save_fig, file_name='TSNE_Plot.png')
 
         ## Visualize Grad-CAM
-        target_num = 782 # show specific image 669, 913, 549, 746, 782
+        target_num = 782 # show specific image
         feed_dict={x_ph: np.expand_dims(x_test[target_num], axis=0), y_ph: np.expand_dims(y_test[target_num], axis=0), is_training: False}
         load_visualization.grad_cam(x_test[target_num], y_test, target_num, d_logits1, target_pred, feed_dict, sess, top_conv, num_classes, save_fig)
                     
