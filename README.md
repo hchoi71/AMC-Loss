@@ -12,5 +12,4 @@ This is re-implementation of the AMC loss described in: [paper](https://arxiv.or
 We use CIFAR10 classification as an example with a simple architecture. In order to reproduce the results described on the paper, please modify the hyperparameters in Train_AMC.py and then run python Train_AMC.py The users can also change the data to other dataset at their interest. This code contains visualization by Grad-CAM from here [https://github.com/Ankush96/grad-cam.tensorflow]. 
 
 ## Visualization
-
-![result_baseline](https://user-images.githubusercontent.com/43688023/81605202-f7782100-9385-11ea-98b5-d11b96dff6c7.png)
+<img src="result/cifar10/result_baseline.png" width="50" height="10">
